@@ -3,7 +3,7 @@ import Navbar from "./components/navbar"
 import Hero from "./components/hero"
 import Card from "./components/card"
 import data from "./data"
-console.log(data)
+
 
 export default function App() {
   const cards = data.map(item => {
